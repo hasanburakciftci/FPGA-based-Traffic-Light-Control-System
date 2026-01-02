@@ -7,10 +7,10 @@ entity TRI is
 	--inputs
 	Clk : in std_logic;	
 	--outputs
-	KI  : out unsigned (2 downto 0);
-	BI  :  out unsigned (2 downto 0);
-	DI  :  out unsigned (2 downto 0);
-    GI  :  out unsigned (2 downto 0));
+	KI  :  out std_logic_vector (2 downto 0);
+	BI  :  out std_logic_vector (2 downto 0);
+	DI  :  out std_logic_vector (2 downto 0);
+    GI  :  out std_logic_vector (2 downto 0));
 end entity;              
   
   
