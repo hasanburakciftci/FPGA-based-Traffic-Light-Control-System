@@ -7,7 +7,7 @@ end entity;
 
 architecture sim of tb_TRI is
   signal clk : std_logic := '0';
-  signal KI, DI, GI, BI : unsigned(2 downto 0);
+  signal KI, DI, GI, BI : std_logic_vector(2 downto 0);
 begin
   
   clk <= not clk after 41.666 ns;
